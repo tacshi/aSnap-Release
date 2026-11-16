@@ -2,31 +2,31 @@
   "schema": 2,
   "minBuildDate": "",
   "extendUntil": "",
-  "latestVersion": "1.5.0",
+  "latestVersion": "1.5.1",
   "latestChannel": "final",
-  "downloadUrl": "https://github.com/tacshi/aSnap-Release/releases/tag/v1.5.0",
-  "message": "aSnap 1.5.0 is available.",
+  "downloadUrl": "https://github.com/tacshi/aSnap-Release/releases/tag/v1.5.1",
+  "message": "aSnap 1.5.1 is available.",
   "buildDate": "2026-11-16",
   "expires": "",
-  "sourceCommit": "5e245cdccd6686f29820563299fb093648eb4bce",
+  "sourceCommit": "e5b3b511d20826b7a29f9d654040e0b1d8a79deb",
   "platforms": {
     "macos": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "channel": "final",
       "kind": "dmg",
-      "fileName": "aSnap-1.5.0-universal.dmg",
-      "size": 21716171,
-      "sha256": "b48c0d8c81f64afbd38a9965d58d05f8d7e520f030d082a2715ee6498790a25a",
-      "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.0/aSnap-1.5.0-universal.dmg"
+      "fileName": "aSnap-1.5.1-universal.dmg",
+      "size": 21721802,
+      "sha256": "24dae93e86961c320596ef1c6148be6d57b5b366af06de1a567ef381b804009b",
+      "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.1/aSnap-1.5.1-universal.dmg"
     },
     "windows": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "channel": "final",
       "kind": "innoSetup",
-      "fileName": "aSnap-1.5.0-windows-x64-setup.exe",
-      "size": 12493315,
-      "sha256": "43338ecfcf06d38d5d3f48f9f235b8f9a2f7495b984342df7da0ef7aac65271a",
-      "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.0/aSnap-1.5.0-windows-x64-setup.exe",
+      "fileName": "aSnap-1.5.1-windows-x64-setup.exe",
+      "size": 12494818,
+      "sha256": "becf434dd2fc47ce82d892b2f98c9802b38fb2a6094a0376ca09ce84ef6b4e0e",
+      "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.1/aSnap-1.5.1-windows-x64-setup.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -34,6 +34,39 @@
         "/CLOSEAPPLICATIONS",
         "/relaunch=1"
       ]
+    }
+  },
+  "latestFinal": {
+    "latestVersion": "1.5.1",
+    "latestChannel": "final",
+    "downloadUrl": "https://github.com/tacshi/aSnap-Release/releases/tag/v1.5.1",
+    "message": "aSnap 1.5.1 is available.",
+    "platforms": {
+      "macos": {
+        "version": "1.5.1",
+        "channel": "final",
+        "kind": "dmg",
+        "fileName": "aSnap-1.5.1-universal.dmg",
+        "size": 21721802,
+        "sha256": "24dae93e86961c320596ef1c6148be6d57b5b366af06de1a567ef381b804009b",
+        "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.1/aSnap-1.5.1-universal.dmg"
+      },
+      "windows": {
+        "version": "1.5.1",
+        "channel": "final",
+        "kind": "innoSetup",
+        "fileName": "aSnap-1.5.1-windows-x64-setup.exe",
+        "size": 12494818,
+        "sha256": "becf434dd2fc47ce82d892b2f98c9802b38fb2a6094a0376ca09ce84ef6b4e0e",
+        "url": "https://github.com/tacshi/aSnap-Release/releases/download/v1.5.1/aSnap-1.5.1-windows-x64-setup.exe",
+        "silentArgs": [
+          "/SILENT",
+          "/NOCANCEL",
+          "/NORESTART",
+          "/CLOSEAPPLICATIONS",
+          "/relaunch=1"
+        ]
+      }
     }
   }
 }
